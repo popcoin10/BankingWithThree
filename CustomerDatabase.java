@@ -1,4 +1,4 @@
-package bankingapplication1;
+package BankingWithThree;
 import java.util.ArrayList;
 /**
  * @author Rich Smith at ZenOfProgramming.com
