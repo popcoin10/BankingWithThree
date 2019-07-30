@@ -1,4 +1,4 @@
-package bankingapplication1;
+package BankingWithThree;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
