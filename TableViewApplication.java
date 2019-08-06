@@ -35,7 +35,7 @@ public class TableViewApplication extends Application {
     private TableView<Person> table = new TableView<Person>(); //create an instance variable
     private final ObservableList<Person> data =
             FXCollections.observableArrayList(
-            new Person("762", "Andres", "Bonifacio", "Mississauga", "Single", "100000.00", "10000.00", "5000.00", "3500.00"),
+            new Person("762", "Andres", "Bonifacio", "Mississauga", "Single", "100000.00", "20000.00", "5000.00", "3500.00"),
             new Person("612", "Jose", "Rizal", "Mississauga", "Married", "100000.00", "10000.00", "5000.00", "2500.00"));
     
     final HBox hb = new HBox();
