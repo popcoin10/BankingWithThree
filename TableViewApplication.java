@@ -8,7 +8,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
-import javafx.geometry.Insets;
+import javafx.geometry.*;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -27,7 +27,7 @@ import javafx.stage.Stage;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.scene.control.TableCell;
-
+import javafx.scene.layout.AnchorPane;
  
 
 public class TableViewApplication extends Application {
@@ -54,8 +54,10 @@ public class TableViewApplication extends Application {
         //First label created to display "Customer Database"
         final Label label1 = new Label("Customer Information");
         label1.setFont(new Font("Arial", 22));
-        label1.setTextAlignment(TextAlignment.CENTER);
-        label1.setWrapText(true);
+        label1.setMaxWidth(Double.MAX_VALUE);
+        AnchorPane.setLeftAnchor(label1, 0.0);
+        AnchorPane.setRightAnchor(label1, 0.0);
+        label1.setAlignment(Pos.CENTER);
         
        // VBox vBox = new VBox(10, label);
        // vBox.setAlignment(CENTER);
